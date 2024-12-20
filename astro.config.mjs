@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   // add yur domain name here
-  site: 'https://lexingtonthemes.com',
+  site: 'https://www.10xengineering.tech/',
   compressHTML: true,
   integrations: [sitemap()]
 });

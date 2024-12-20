@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+https://www.10xengineering.tech/sitemap-index.xml

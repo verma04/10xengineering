@@ -12,7 +12,7 @@ importers:
         specifier: ^3.5.3
         version: 3.5.4(@babel/core@7.26.0)(lightningcss@1.28.2)(preact@10.25.2)
       '@astrojs/sitemap':
-        specifier: ^3.1.6
+        specifier: ^3.2.1
         version: 3.2.1
       astro:
         specifier: ^4.15.4
