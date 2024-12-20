@@ -5,10 +5,22 @@ import Work from "@/components/landing/Work.astro";
 import Intro from "@/components/landing/Intro.astro";
 import Services from "@/components/landing/Services.astro";
 import Cta from "@/components/landing/Cta.astro";
-
+import { SEOMetadata } from "astro-seo-metadata";
 ---
 
-
+<SEOMetadata
+  siteName={"10xEngineering ⏤ By Pankaj Verma"}
+  title={"10xEngineering ⏤ By Pankaj Verma"}
+  description={"TRANSFORMING IDEAS INTO SCALABLE SOFTWARE SOLUTIONS"}
+  image={"/preview.png"}
+  favicon={"/favicon.svg"}
+  author="Pankaj"
+  copyright="ISC"
+  astroSitemap={true}
+  canonicalUrl={Astro.url.toString()}
+  type={"website"}
+  astroGenerator={true}
+/>
 <BaseLayout>
   <Hero />
   <Work />
